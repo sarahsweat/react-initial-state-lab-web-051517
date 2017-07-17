@@ -1,8 +1,8 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import React from 'react'
+import ReactDOM from 'react-dom'
 
-import ImageSlider from './components/ImageSlider';
-import Bomb from './components/Bomb';
+import ImageSlider from './components/ImageSlider'
+import Bomb from './components/Bomb'
 
 ReactDOM.render(
   <div>
@@ -10,4 +10,4 @@ ReactDOM.render(
     <Bomb initialCount={120} />
   </div>,
   document.getElementById('root')
-);
+)
